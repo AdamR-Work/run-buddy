@@ -23,6 +23,13 @@ header h1 {
     display: inline;
 }
   
+@media screen and (max-width: 1032px){
+  header h1 {
+    /* color: red; */
+    font-size: 20px;
+  }
+}
+
 header a {
     text-decoration: none;
     color: #fce138;
@@ -272,9 +279,5 @@ div form {
   color: #fce138;
   font-size: 30px;
   padding-bottom: 20px;
-  }
-
-.address2 {
-  
   }
 
